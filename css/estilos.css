@@ -91,6 +91,35 @@ body {
     color: #ffffff;
 }
 
+
+/* Estilos personalizados de header */
+
+#header {
+    background: #282828;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#header .crear {
+    padding-top: 20px;
+}
+
+.color-principal {
+    background-color: #eb6f31 !important;
+    border-color: #eb6f31 !important;
+    color: #fff;
+}
+
+.barra-progreso {
+    background: #333333;
+    color: #cccccc;
+}
+
+
+/* twbs color media */
+
 @media (max-width: 575px) {
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
         color: #ecf0f1;
@@ -132,9 +161,6 @@ body {
         background-color: #ab5226;
     }
 }
-
-
-/* twbs color */
 
 @media (max-width: 1199px) {
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
