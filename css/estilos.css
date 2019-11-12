@@ -106,7 +106,8 @@ body {
     padding-top: 20px;
 }
 
-.color-principal {
+.color-principal,
+.panel-default>.panel-heading {
     background-color: #eb6f31 !important;
     border-color: #eb6f31 !important;
     color: #fff;
@@ -115,6 +116,14 @@ body {
 .barra-progreso {
     background: #333333;
     color: #cccccc;
+}
+
+#footer {
+    background: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
 }
 
 
